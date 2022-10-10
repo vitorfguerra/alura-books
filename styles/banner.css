@@ -24,6 +24,9 @@
   border: 1px solid var(--branco);
   padding: 1em;
   color: var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 14px;
+  font-weight: 400;
   width: 90%;
 }
 
@@ -31,9 +34,9 @@
   font-family: var(--fonte-principal);
   font-size: 14px;
   font-weight: 400;
-  text-align: center;
   color: var(--branco);
   background: url("../assets/Pesquisa.svg") no-repeat;
-  background-position: 1.2em;
+  background-position: 0;
+  padding-left: 2em;
   
 }
