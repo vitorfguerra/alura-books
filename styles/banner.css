@@ -1,0 +1,29 @@
+.banner {
+  display: block;
+  background: var(--azul-degrade);
+  color: var(--branco);
+  text-align: center;
+  height: 215px;
+  padding: 2.5em 2em;
+}
+
+.banner__titulo {
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.banner__texto {
+  margin-bottom: 3em;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.banner__pesquisa {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid var(--branco);
+  padding: 1em;
+  color: var(--branco);
+  text-align: center;
+}
