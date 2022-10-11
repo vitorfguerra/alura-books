@@ -6,7 +6,7 @@
 
 .card__angular {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   height: 295px;
   background-color: var(--branco);
   padding: 1em;
@@ -40,9 +40,7 @@
   line-height: 21px;
 }
 
-.card__imagem{
-  width: 100%;
-}
+
 
 .card__icones {
   display: flex;
@@ -51,7 +49,7 @@
 
 }
 
-.card__div-botao{
+.card__div-botao {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,12 +72,57 @@
   color: var(--branco);
 }
 
-.card-estrelas{
+.card-estrelas {
   line-height: 2em;
- }
+}
 
- .card__icones-autora{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
- }
+
+
+@media screen and (min-width: 1024px) {
+
+  .card__angular {
+    height: auto;
+    width: 55%;
+    margin: 0 auto;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4em;
+    padding: 1.5em 2em 1em 1em;
+  }
+
+  .card__botao {
+    margin-top: 1.5em;
+  }
+
+  .card__icones {
+    margin-top: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+
+  .card__angular {
+    height: 278px;
+    width: 75%;
+    grid-template-columns: 2fr 1fr;
+    margin: 0;
+    
+  }
+
+  .card{
+    margin: 0;
+    padding-top: 7em;
+    
+  }
+
+  .card__titulo{
+    font-size: 32px;
+  }
+
+  .card__nome-livro{
+    font-size: 18px;
+  }
+
+  .card__texto{
+    font-size: 16px;
+  }
+}
